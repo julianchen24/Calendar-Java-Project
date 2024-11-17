@@ -1,5 +1,6 @@
 # Calendar Java Project
 This repository contains a Java-based Calendar Event Management System that allows users to create, view, and manage events in a MySQL database. This system features a user interface built with Java Swing for managing events, including title, description, date, and time.
+![image](https://github.com/user-attachments/assets/ab86cfd5-7c15-41a4-8d1e-49b8f55c230e)
 
 ## Installation
 To run the project please ensure you have Java 22.0.X installed and follow the steps below:
@@ -20,7 +21,7 @@ $ In the XAMPP Control Panel, click Start for both Apache and MySQL modules.
 ```
 4. Configure the MySQL Database
 ```
-$ Go to your browser and visit: http://localhost/phpMyAdmin/
+$ Go to your browser and visit: localhost/phpmyadmin/
 $ Under the Databases tab, create a new database called Calendar
 $ In the Calendar database, create a table called Calendar with the following 5 columns:
     - ID(Type: INT, Attributes: UNSIGNED, Set as Auto Increment by checking A_I box)
